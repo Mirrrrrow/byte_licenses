@@ -4,6 +4,9 @@
 ### Description
 byte_licenses provides your server the possibility to give out licenses as items to players. You can add jobs, that can use the command and can set the items that they can use.
 
+### Preview
+https://youtu.be/fmTTXdxQc-Q
+
 ### Setup
 If you have ox_inventory and if you use ox_lib you don't have to change anything. If you don't have one of the scripts then you have to change the exports in the [Config](config.lua).
 Put the script inside your resources folder an start it after oxmysql, ox_lib and es_extended.
