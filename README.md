@@ -1,4 +1,4 @@
-<div align='center'><img src='https://github.com/Mirrrrrow/byte_licenses/assets/95571243/9a984061-5c13-471a-9cd4-99a018922fea' width='100rem'/></div>
+<div align='center'><img src='https://github.com/Mirrrrrow/byte_licenses/assets/95571243/bd44ecf7-36a0-4ee5-8845-622f436ebacb' width='100rem'/></div>
 <div align='center'><h2>BYTE-SCRIPTS</h2></div>
 
 ### Description
