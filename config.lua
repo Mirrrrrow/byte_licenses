@@ -80,9 +80,9 @@ Config.Locales = {
 }--]]
 
 Config.License = {
-    ItemName = 'mastercard',
     --[[Types = {
         DrivingA = {
+            ItemName = 'mastercard',
             AllowedJobs = {"dmv", "police"},
             name = "license_driving_a",
             label = "Führerschein Klasse A",
@@ -90,6 +90,7 @@ Config.License = {
             price = 15000
         },
         Weapon = {
+            ItemName = 'mastercard',
             AllowedJobs = {"police", "sheriff"},
             name = "weapon_license",
             icon = "gun",
@@ -99,6 +100,7 @@ Config.License = {
     }--]]
     Types = {
         DrivingA = {
+            ItemName = 'mastercard',
             AllowedJobs = {"dmv"},
             name = "license-driving-a",
             label = "Driverslicense A",
@@ -106,6 +108,7 @@ Config.License = {
             price = 15000
         },
         Weapon = {
+            ItemName = 'mastercard',
             AllowedJobs = {"police", "sheriff"},
             name = "weapon_license",
             icon = "gun",
