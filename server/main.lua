@@ -175,7 +175,7 @@ RegisterServerEvent("licenses:tryGiveLic", function (object)
         })
     end
 
-    if not Config.Inventory.CanCarryItem(xPlayer.source, Config.License.ItemName, 1, itemMetaData) then
+    if not Config.Inventory.CanCarryItem(xPlayer.source, object[2].ItemName, 1, itemMetaData) then
         return Config.Notify.Server( src, {
             title = 'LIZENZSYSTEM',
             description = Config.Locales['not_enough_space']:format(FormatNearby()),
@@ -183,7 +183,7 @@ RegisterServerEvent("licenses:tryGiveLic", function (object)
         })
     end
 
-    Config.Inventory.AddItem(xPlayer.source, Config.License.ItemName, 1, itemMetaData)
+    Config.Inventory.AddItem(xPlayer.source, object[2].ItemName, 1, itemMetaData)
 
     NotifyFaction(xPlayer.getJob().name, Config.Locales['faction_notify']:format(
         xPlayer.getJob().grade,
